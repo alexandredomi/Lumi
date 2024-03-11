@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.pesquisa-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.section-lançamentos{
+}
+
+.text-lansamento{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.img-lançamento img{
+    width: 90%;
+    border-radius: 20px;
+}
