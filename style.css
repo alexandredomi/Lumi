@@ -21,6 +21,7 @@ header{
 }
 
 .section-lançamentos{
+
 }
 
 .text-lansamento{
@@ -31,4 +32,34 @@ header{
 .img-lançamento img{
     width: 90%;
     border-radius: 20px;
+}
+.section-produto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.produto-center{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-produto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.produto-center .card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.color-verde{
+    color: #33bbc5;
 }
