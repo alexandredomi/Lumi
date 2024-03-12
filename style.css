@@ -10,18 +10,25 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    gap: 10px;
 }
 
-.pesquisa-header{
+.pesquisa{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 10px 0px;
+    justify-content: space-around;
     width: 100%;
-    padding-top: 10px;
+    background-color: #33bbc5;
+    color: white;
 }
 
-.section-lançamentos{
+.nav-item{
+    list-style: none;
+}
 
+.nav-link a{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .text-lansamento{
@@ -42,7 +49,6 @@ header{
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
 .text-produto{
@@ -57,7 +63,13 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
-    
+}
+
+.produtos-produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .color-verde{
