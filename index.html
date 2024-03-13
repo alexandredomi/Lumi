@@ -11,8 +11,18 @@
   <body>
     <header>
         <div class="center-header">
-            <div class="botao-meu">
-                <img src="imagens/hamburger.png" alt="icone amburger">
+            <div class="dropdown-toggle">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown-" aria-expanded="false">
+                  <img src="imagens/hamburger.png" alt="">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">promoçoes</a></li>
+                  <li><a class="dropdown-item" href="#">acessorios feminino</a></li>
+                  <li><a class="dropdown-item" href="#">acessorios masculinos</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
             </div>
         </div>
         <div class="logo-header">
@@ -20,36 +30,6 @@
         </div>
         <div class="sacola-header">
             <img src="imagens/sacola-de-compras.png" alt="">
-        </div>
-        <!--<div class="pesquisa-header">
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Psquisa" aria-label="Search">
-                <button class="btn" type="submit"><img src="imagens/lupa.png" alt=""></button>
-            </form>
-        </div>-->
-        <div class="pesquisa">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Produtos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Homem</a></li>
-                  <li><a class="dropdown-item" href="#">Mulher</a></li>
-                  <li><a class="dropdown-item" href="#">Menino</a></li>
-                  <li><a class="dropdown-item" href="#">Menina</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Presentes
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Homem</a></li>
-                  <li><a class="dropdown-item" href="#">Mulher</a></li>
-                  <li><a class="dropdown-item" href="#">Menino</a></li>
-                  <li><a class="dropdown-item" href="#">Menina</a></li>
-                </ul>
-              </li>
         </div>   
     </header>
     <main>
@@ -82,7 +62,7 @@
                 <h2>Lançamentos</h2>
             </div>
             <div class="img-lançamento">
-                <img src="imagens/lançamento 1.jpg" alt="img lançamento">
+                <a href="#"><img src="imagens/lançamento 1.jpg" alt="img lançamento"></a>
             </div>
         </section>
         <section class="section-produto">
